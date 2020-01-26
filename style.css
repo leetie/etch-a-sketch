@@ -1,5 +1,15 @@
-#container {
+#flex-container {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
 }
+
+.flexBox {
+  width: 10px;
+  height: 10px;
+  background-color: blue;
+  
+  border-style: solid;
+  border-color: black;
+}
+
