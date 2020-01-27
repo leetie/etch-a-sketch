@@ -1,15 +1,53 @@
-#flex-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+.button {
+  font-size: 1.5em;
+  height: 100px;
+  width: 100px;
+  background-image: linear-gradient(90deg, red, blue);
+  border-radius: 100%;
 }
 
-.flexBox {
-  width: 10px;
-  height: 10px;
-  background-color: blue;
+.button:hover {
   
-  border-style: solid;
-  border-color: black;
+  cursor: pointer;
 }
+
+body {
+  text-align: center;
+  background-color: blue;
+}
+
+.container {
+  height: 900px;
+  width: 900px;
+  justify-content: center;
+  display: inline-flex;
+  border: 5px black solid;
+  border-radius: 5px;
+  font-size: 0;
+  margin: 10px auto;
+  box-shadow: indigo;
+}
+
+.active {
+  background-color: black;
+}
+
+.cell {
+  background-color: white;
+}
+  
+.row {
+  width: 100%;
+}
+  
+.hovered {
+  background-color: gray;
+}
+
+  
+  
+
+  
+  
+  
 
