@@ -16,9 +16,19 @@ body {
   background-color: blue;
 }
 
+.sidebar {
+  background-color: blanchedalmond;
+  justify-content: center;
+  position: relative;
+  float: left;
+  height: 500px;
+  margin: auto;
+  width: 100px;
+}
+
 .container {
-  height: 900px;
-  width: 900px;
+  height: 600px;
+  width: 600px;
   justify-content: center;
   display: inline-flex;
   border: 5px black solid;

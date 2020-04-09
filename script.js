@@ -31,7 +31,7 @@ function genDivs(v) {
       var cell = document.createElement('div');
       cell.className = 'cell';
       cell.textContent = i;
-      cell.style.cssText = "height: " + (900 / v) + "px;";
+      cell.style.cssText = "height: " + (600 / v) + "px;";
       row.appendChild(cell);
     }
     e.appendChild(row);
